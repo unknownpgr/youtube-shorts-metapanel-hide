@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Hide YouTube Shorts Metapanel",
+  "version": "1.1",
+  "description": "www.youtube.com에서 ytReelMetapanelViewModelHost 클래스를 가진 요소를 숨깁니다.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
