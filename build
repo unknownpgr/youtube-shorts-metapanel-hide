@@ -1,0 +1,2 @@
+#!/bin/bash
+zip -r "build-$(date +%Y%m%d).zip" src
