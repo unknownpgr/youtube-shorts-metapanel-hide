@@ -20,10 +20,10 @@ The extension targets YouTube's Shorts metapanel elements and provides a simple 
 
 ## Installation
 
-1. Download the extension files (`manifest.json` and `content.js`)
+1. Download the extension files from the `src/` folder (`manifest.json`, `content.js`, and `icon.png`)
 2. Open your browser's extension management page
 3. Enable "Developer mode"
-4. Click "Load unpacked" and select the folder containing the extension files
+4. Click "Load unpacked" and select the `src/` folder containing the extension files
 5. Navigate to YouTube and you'll see the toggle button in the bottom-left corner
 
 ## Usage
@@ -41,8 +41,9 @@ The extension targets YouTube's Shorts metapanel elements and provides a simple 
 
 ## Files
 
-- `manifest.json`: Extension configuration and permissions
-- `content.js`: Main functionality and UI implementation
+- `src/manifest.json`: Extension configuration and permissions
+- `src/content.js`: Main functionality and UI implementation
+- `src/icon.png`: Extension icon (128x128)
 - `docs/`: Screenshots showing the extension in action
 
 ## Contributing
