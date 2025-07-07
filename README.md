@@ -1,6 +1,6 @@
-# YouTube Reels Panel Hider Extension
+# YouTube Shorts Panel Hider Extension
 
-A browser extension that allows you to hide the YouTube Reels panel (metapanel) for a cleaner viewing experience.
+A browser extension that allows you to hide the YouTube Shorts panel (metapanel) for a cleaner viewing experience.
 
 ## Features
 
@@ -11,7 +11,7 @@ A browser extension that allows you to hide the YouTube Reels panel (metapanel) 
 
 ## How It Works
 
-The extension targets YouTube's Reels metapanel elements and provides a simple toggle to show/hide them. When enabled, the panel is hidden; when disabled, it's shown normally.
+The extension targets YouTube's Shorts metapanel elements and provides a simple toggle to show/hide them. When enabled, the panel is hidden; when disabled, it's shown normally.
 
 ## Installation
 
@@ -23,8 +23,8 @@ The extension targets YouTube's Reels metapanel elements and provides a simple t
 
 ## Usage
 
-- **Enable**: Click the toggle to hide the Reels panel
-- **Disable**: Click the toggle again to show the Reels panel
+- **Enable**: Click the toggle to hide the Shorts panel
+- **Disable**: Click the toggle again to show the Shorts panel
 - **Visual Feedback**: The toggle button slides left/right and changes color to indicate the current state
 
 ## Before and After
@@ -39,7 +39,7 @@ The extension targets YouTube's Reels metapanel elements and provides a simple t
 
 ## Technical Details
 
-- **Target**: YouTube Reels metapanel elements with class `ytReelMetapanelViewModelHost`
+- **Target**: YouTube Shorts metapanel elements with class `ytReelMetapanelViewModelHost`
 - **Storage**: Uses localStorage to persist user preferences
 - **Styling**: Modern YouTube-inspired design with blur effects and smooth transitions
 - **Compatibility**: Works with YouTube's current interface
