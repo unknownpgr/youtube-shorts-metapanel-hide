@@ -1,5 +1,10 @@
 # YouTube Shorts Panel Hider Extension
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="docs/before.png" alt="Before - Panel Visible" width="400">
+  <img src="docs/after.png" alt="After - Panel Hidden" width="400">
+</div>
+
 A browser extension that allows you to hide the YouTube Shorts panel (metapanel) for a cleaner viewing experience.
 
 ## Features
@@ -26,16 +31,6 @@ The extension targets YouTube's Shorts metapanel elements and provides a simple 
 - **Enable**: Click the toggle to hide the Shorts panel
 - **Disable**: Click the toggle again to show the Shorts panel
 - **Visual Feedback**: The toggle button slides left/right and changes color to indicate the current state
-
-## Before and After
-
-### Before (Panel Visible)
-
-![Before - Panel Visible](docs/before.png)
-
-### After (Panel Hidden)
-
-![After - Panel Hidden](docs/after.png)
 
 ## Technical Details
 
