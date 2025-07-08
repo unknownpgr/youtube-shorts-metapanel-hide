@@ -1,10 +1,12 @@
 (function () {
-  const TARGET_URLS = ["www.youtube.com"];
   const TARGET_CLASS = "ytReelMetapanelViewModelHost";
   const ENABLED_STORAGE_KEY = "yt-ext-enabled";
 
   const isTargetUrl = () => {
-    return TARGET_URLS.some((url) => window.location.hostname.includes(url));
+    const url = window.location.href;
+    if (!url.includes("youtube.com")) return false;
+    if (!url.includes("shorts")) return false;
+    return true;
   };
 
   if (!isTargetUrl()) return;
